@@ -17,4 +17,7 @@ import { HeroesComponent } from './heroes/heroes.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+@NgModule.providers({
+  providers: [ HeroService, MessageService ]
+})
 export class AppModule { }
